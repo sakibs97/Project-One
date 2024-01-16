@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;    
+    outline: 0;
+    font-family: 'Inter', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+:root{
+    --homecolor: #477018;
+    --whitecolor: #fff;
+}
+/* nav part start */
+#home{
+    background-color: var(--homecolor);
+    padding: 15px 0;
+}
+.hme h5{
+    color: var(--whitecolor);
+    font-size: 16px;
+    font-weight: 400;
+}
+.bg_nav ul li{
+    padding: 20px;
+}
+.bg_nav ul li a{
+    color: #477018!important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.nav_icon span a{
+    margin-left: 10px;
+}
+/* nav part end */
+/* footer part start */
+footer{
+    padding: 50px 0;
+    background-color: #373C33;
+}
+.left_dtls{
+    margin: 20px 0;
+}
+.left_dtls a i{
+    margin-right: 20px;
+    padding: 16px;
+    color: #fff;
+    border: 2px solid #477018;
+    background-color: var(--homecolor);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.left_dtls_last a i{
+    margin-right: 20px;
+    padding: 16px 18px;
+    color: #fff;
+    border: 2px solid #477018;
+    background-color: var(--homecolor);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.left_help a{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+}
+.left_help h6{
+    color: var(--whitecolor);
+    font-size: 16px;
+    font-weight: 400;
+}
+.help_one h6{
+    color: var(--whitecolor);
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.help_one ul{
+    padding-left: 0;        
+}
+.help_one ul li a{
+    color: var(--whitecolor);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.help_one ul li a:hover{
+    color:var(--homecolor);
+}
+.foter_right h6{
+    color: var(--whitecolor);
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.foter_right p{
+    color: var(--whitecolor);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.roght_sendInput{
+    height: 50px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.roght_sendInput ::placeholder{    
+    color: rgba(103, 103, 103, 0.36);
+    font-size: 16px;
+    font-weight: 400;
+}
+.roght_send button{
+    height: 51px;
+    width: 90px;
+    border: none;
+    margin-left: -20px;
+    color: var(--whitecolor);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #F47606;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* footer part end */
+@media (max-width:767px){
+    .hme h5{
+        text-align: center;
+    }
+    .bg_nav{
+        margin-bottom: 10px;
+    }
+    .bg_nav ul li{
+    text-align: center;
+    padding: 5px 0;
+    }
+    .nav_icon{
+        text-align: center;
+    }
+    .help_part{
+        margin-top: 20px;
+    }
+    .foter_right{
+        text-align: center;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .bg_nav ul li{
+    text-align: center;
+    padding: 5px 0;
+    }
+    .addy_cnt{
+        display: flex;
+    }
+    .left_dtls_last{
+        margin-top: 20px;
+    }
+    .help_part{
+        margin-top: 20px;
+    }
+    .nav_icon{
+        text-align: center;
+    }
+    .foter_right{
+        text-align: center;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    .roght_sendInput{
+        width: 200px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+    .roght_sendInput{
+        width: 200px;
+    }
+}
+@media (min-width:1400px){
+}
